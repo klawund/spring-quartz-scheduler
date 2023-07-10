@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: scheduler
+  quartz:
+    job-store-type: memory
+    properties:
+      org.quartz.jobStore:
+        class: org.quartz.simpl.RAMJobStore
